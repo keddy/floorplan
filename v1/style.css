@@ -1,0 +1,50 @@
+div {
+
+  border: 1px solid black;
+  margin: 2px;
+  display: inline-block;
+
+}
+
+.chaircontrol {
+	position: absolute;
+}
+
+#t1 {
+	position: relative;
+}
+
+#b1 {
+	position: relative;
+}
+
+.main {
+  background-color: red;
+  min-height: 3em;
+  width:100%;
+}
+
+.room {
+  position: relative;
+  background-color: orange;
+  box-sizing: border-box;
+
+}
+
+.chair {
+  text-align: center;
+  position: absolute;
+  background-color: green;
+}
+
+.chair.isSelect {
+	background-color: blue;
+	z-index: 1;
+}
+
+.room-head {
+  width: 100%;
+  text-align: center;
+  position: relative;
+
+}

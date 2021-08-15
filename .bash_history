@@ -10,3 +10,7 @@ git commit
 git remote show
 git local show
 git init
+git add .
+git commit -m "inital phase"
+git remote add origin 'https://github.com/keddy/floorplan.git'
+git push -u origin master

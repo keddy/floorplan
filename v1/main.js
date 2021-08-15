@@ -13,6 +13,7 @@ var globalSettings = {
   chairY: 20,
 }
 
+
 function setName() {
 	var ret = globalSettings.name;
 	globalSettings.name++;
